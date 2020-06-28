@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         editText = findViewById(R.id.et);
         editText.setRegulation(new int[]{4,4,4,5})
-                .setSeparator(" ")
                 .build();
     }
 
